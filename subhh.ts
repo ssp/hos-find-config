@@ -54,5 +54,7 @@ plugin.tx_find {
                 id = language
             }
         }
+
+        languageRootPath = typo3conf/find/i18n/
     }
 }
