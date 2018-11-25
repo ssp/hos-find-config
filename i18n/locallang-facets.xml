@@ -15,6 +15,10 @@
 	<data type="array">
 		<languageKey index="default" type="array">
 			<label index="facet.source">Sammlung</label>
+			<label index="facet.source.ediss">E-Dissertationen Uni Hamburg</label>
+			<label index="facet.source.hsu">Publikationen HSU</label>
+			<label index="facet.source.tuhh-fdm">Forschungsdaten TU Hamburg</label>
+
 			<label index="facet.openaccess">OpenAccess</label>
 			<label index="facet.year">Erscheinungsjahr</label>
 			<label index="facet.map">Karte</label>
