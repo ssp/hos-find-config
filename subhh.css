@@ -1,0 +1,27 @@
+.facet a {
+    text-decoration: none;
+}
+
+.facet-id-source .facetList li a {
+    display: inline;
+}
+
+.facet-id-source .facetList li:before {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    content: ' ';
+    background-size: contain;
+}
+
+.facet-id-source .facetList li[value='ediss']:before {
+    background-image: url(http://openscience.hamburg.de/typo3conf/ext/discovery/Resources/Public/CSS/uhh.png);
+}
+
+.facet-id-source .facetList li[value='hsu']:before {
+    background-image: url(http://openscience.hamburg.de/typo3conf/ext/discovery/Resources/Public/CSS/hsu.png);
+}
+
+.facet-id-source .facetList li[value='tuhh-fdm']:before {
+    background-image: url(http://openscience.hamburg.de/typo3conf/ext/discovery/Resources/Public/CSS/tuhh.png);
+}
