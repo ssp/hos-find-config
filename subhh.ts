@@ -1,6 +1,16 @@
-page.includeJS.00jQuery = typo3conf/find/js/jquery.min.js
-page.includeJS.10flot = https://cdnjs.cloudflare.com/ajax/libs/flot/0.8.3/jquery.flot.min.js
-page.includeJS.11flot = https://cdnjs.cloudflare.com/ajax/libs/flot/0.8.3/jquery.flot.selection.js
+page.includeJS {
+    00jQuery = typo3conf/find/js/jquery.min.js
+    
+    10flot = https://cdnjs.cloudflare.com/ajax/libs/flot/0.8.3/jquery.flot.min.js
+    11flot = https://cdnjs.cloudflare.com/ajax/libs/flot/0.8.3/jquery.flot.selection.js
+
+    20heatmap = typo3conf/find/js/vendor/heatmap.js
+    21heatmap = typo3conf/find/js/Cloudflare/leaflet/1.3.1/leaflet.js
+    22heatmap = typo3conf/find/js/vendor/heatmap-leaflet.js
+    24heatmap = typo3conf/find/js/Cloudflare/fancybox/3.3.5/jquery.fancybox.min.js
+    23heatmap = typo3conf/find/js/schaufenster.heatmap.js
+
+}
 
 plugin.tx_find {
     settings {
@@ -32,6 +42,7 @@ plugin.tx_find {
             40 {
                 id = map
                 field = geoLocationPoint
+                type = Heatmap
             }
 
             50 {
@@ -69,4 +80,11 @@ plugin.tx_find {
             20 = typo3conf/find/subhh.css
         }
     }
+
+    view {
+        partialRootPaths {
+            20 = typo3conf/find/Partials
+        }
+    }
+
 }

@@ -25,3 +25,8 @@
 .facet-id-source .facetList li[value='tuhh-fdm']:before {
     background-image: url(http://openscience.hamburg.de/typo3conf/ext/discovery/Resources/Public/CSS/tuhh.png);
 }
+
+.facetMap-container {
+    overflow: hidden;
+    height: 200px;
+}
