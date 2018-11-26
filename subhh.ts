@@ -1,3 +1,5 @@
+page.includeJS.00jQuery = typo3conf/find/js/jquery.min.js
+
 plugin.tx_find {
     settings {
         connections.default.options {
