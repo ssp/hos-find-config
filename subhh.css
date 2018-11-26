@@ -30,3 +30,11 @@
     overflow: hidden;
     height: 200px;
 }
+
+.facet-id-ddc .facetList li {
+    display: none;
+}
+
+.facet-id-ddc .facetList li[value$='00'] {
+    display: block;
+}

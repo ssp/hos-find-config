@@ -10,6 +10,7 @@ page.includeJS {
     24heatmap = typo3conf/find/js/Cloudflare/fancybox/3.3.5/jquery.fancybox.min.js
     23heatmap = typo3conf/find/js/schaufenster.heatmap.js
 
+    30ddc = typo3conf/find/js/ddc.js
 }
 
 plugin.tx_find {
@@ -57,6 +58,7 @@ plugin.tx_find {
             70 {
                 id = ddc
                 field = subject_ddc
+                sortOrder = index
             }
 
             80 {
