@@ -21,6 +21,14 @@ plugin.tx_find {
             path = /solr/hos
         }
 
+        queryFields {
+            10 {
+                id = title
+                type = Text
+                extended = 1
+            }
+        }
+
         facets {
             10 {
                 id = source
