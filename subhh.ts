@@ -95,6 +95,10 @@ plugin.tx_find {
         partialRootPaths {
             20 = typo3conf/find/Partials
         }
+
+        templateRootPaths {
+            20 = typo3conf/find/Templates
+        }
     }
 
 }
