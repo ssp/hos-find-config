@@ -89,7 +89,7 @@ plugin.tx_find {
         languageRootPath = typo3conf/find/i18n/
 
         CSSPaths {
-            20 = typo3conf/find/subhh.css
+            30 = typo3conf/find/subhh.css
         }
     }
 
