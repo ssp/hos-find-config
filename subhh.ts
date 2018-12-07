@@ -1,3 +1,5 @@
+#config.contentObjectExceptionHandler = 0
+
 page.includeJS {
     00jQuery = typo3conf/find/js/jquery.min.js
     
