@@ -2,8 +2,8 @@
 	$(function() {
 		tx_schaufenster_facetHeatmap.initHeatmap ({
 			container: jQuery('.facetMap-container .heatmapContainer')[0],
-			facetData:<f:format.raw>{s:format.json(data:facetData.values)}</f:format.raw>,
-			facetFetchMaximum:<f:format.raw>{facetInfo.fetchMaximum}</f:format.raw>
+			facetData:{f:format.json(value:facetData.values)},
+			facetFetchMaximum:{facetInfo.fetchMaximum}
 		});
 	});
 </s:page.script>
