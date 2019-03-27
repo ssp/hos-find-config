@@ -45,6 +45,7 @@ plugin.tx_find {
                 id = year
                 field = publicationYear
                 type = Histogram
+                excludeOwnFilter = 1
                 sortOrder = index
                 fetchMaximum = 1000
                 displayDefault = 1000
