@@ -49,6 +49,7 @@ plugin.tx_find {
                 sortOrder = index
                 fetchMaximum = 1000
                 displayDefault = 1000
+                barWidth = 1
             }
 
             40 {
