@@ -1,4 +1,4 @@
-#config.contentObjectExceptionHandler = 0
+config.contentObjectExceptionHandler = 0
 
 page.includeJS {
     00jQuery = typo3conf/find/js/jquery.min.js
@@ -48,7 +48,6 @@ plugin.tx_find {
                 type = Histogram
                 excludeOwnFilter = 1
                 sortOrder = index
-                fetchMaximum = 1000
                 displayDefault = 1000
                 barWidth = 1
             }
@@ -92,17 +91,17 @@ plugin.tx_find {
         languageRootPath = typo3conf/find/i18n/
 
         CSSPaths {
-            30 = typo3conf/find/subhh.css
+            30 = typo3conf/find/css/subhh.css
         }
     }
 
     view {
         partialRootPaths {
-            20 = typo3conf/find/Partials
+            20 = typo3conf/find/subhh-hos-main/Partials
         }
 
         templateRootPaths {
-            20 = typo3conf/find/Templates
+            20 = typo3conf/find/subhh-hos-main/Templates
         }
     }
 

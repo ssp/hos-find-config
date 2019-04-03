@@ -1,0 +1,12 @@
+{namespace s=Subugoe\Find\ViewHelpers}
+<f:layout name="Default"/>
+<f:section name="main">
+    <div data-facet-localizations="{f:format.json(value:
+        '{s:find.localizedFacetData(
+            data: \'{results.components.facetset.facets}\',
+            settings: \'{settings}\'
+            )}'
+        )}">
+        See the data-attribute of this div for the facet localizations.
+    </div>
+</f:section>
