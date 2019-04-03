@@ -2,7 +2,8 @@ config.contentObjectExceptionHandler = 0
 
 page.includeJS {
     00jQuery = typo3conf/find/js/jquery.min.js
-    
+    01jQueryUi = typo3conf/find/js/jquery-ui-1.12.1/jquery-ui.min.js
+
     10flot = https://cdnjs.cloudflare.com/ajax/libs/flot/0.8.3/jquery.flot.min.js
     11flot = https://cdnjs.cloudflare.com/ajax/libs/flot/0.8.3/jquery.flot.selection.js
 
@@ -92,6 +93,7 @@ plugin.tx_find {
 
         CSSPaths {
             30 = typo3conf/find/css/subhh.css
+            40 = typo3conf/find/js/jquery-ui-1.12.1/jquery-ui.min.js
         }
     }
 
