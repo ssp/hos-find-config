@@ -14,20 +14,43 @@
 	</meta>
 	<data type="array">
 		<languageKey index="default" type="array">
-			<label index="facet.source">Sammlung</label>
-			<label index="facet.source.ediss">E-Dissertationen Uni Hamburg</label>
-			<label index="facet.source.hsu">Publikationen HSU</label>
-			<label index="facet.source.tuhh-fdm">Forschungsdaten TU Hamburg</label>
+			<label index="facet.collection">Sammlung</label>
 
 			<label index="facet.openaccess">OpenAccess</label>
+			
 			<label index="facet.year">Erscheinungsjahr</label>
+			
 			<label index="facet.map">Karte</label>
-			<label index="facet.publisher">HerausgeberIn / Verlag</label>
+			
+			<label index="facet.publisher">Herausgeber*n / Verlag</label>
+			
 			<label index="facet.subject">Schlagworte</label>
+			
 			<label index="facet.ddc">Fachgebiete</label>
-			<label index="facet.creator">AutorIn</label>
+			
+			<label index="facet.creator">Autor*n</label>
+			
 			<label index="facet.type">Ressourcentyp</label>
+			<label index="facet.type.Article">Artikel</label>
+			<label index="facet.type.Book">Buch</label>
+
 			<label index="facet.language">Sprache</label>
+			<label index="facet.language.de">Deutsch</label>
+			<label index="facet.language.en">Englisch</label>
+			<label index="facet.language.fr">Französisch</label>
+			<label index="facet.language.es">Kastillisch (Spanisch)</label>
+			<label index="facet.language.ru">Russisch</label>
+			<label index="facet.language.it">Italienisch</label>
+			<label index="facet.language.pt">Portugiesisch</label>
+			<label index="facet.language.nl">Niederländisch</label>
+			<label index="facet.language.zh">Mandarin (Chinesisch)</label>
+			<label index="facet.language.el">Griechisch</label>
+			<label index="facet.language.pl">Polnisch</label>
+			<label index="facet.language.tk">Türkisch</label>
+			<label index="facet.language.no">Norwegisch</label>
+			<label index="facet.language.ja">Japanisch</label>
+			<label index="facet.language.por">Portugiesisch</label>
+			<label index="facet.collection">Sammlung</label>
 		</languageKey>
 	</data>
 </T3locallang>

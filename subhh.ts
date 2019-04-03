@@ -33,7 +33,8 @@ plugin.tx_find {
 
         facets {
             10 {
-                id = source
+                id = collection
+                field = source
             }
 
             20 {
