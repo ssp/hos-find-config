@@ -1,0 +1,37 @@
+{namespace s=Subugoe\Find\ViewHelpers}
+<f:layout name="Default"/>
+<f:section name="main">
+    
+    <p>
+        Add these parameters to the URI in the browser:
+            <code>&a[foo][x]=1&a[foo][y]=1&a[foo,bar][x]=1&a[foo,bar][y]=1</code>
+    </p>
+
+    <p>
+        <f:uri.action
+            addQueryString="TRUE"
+            argumentsToBeExcludedFromQueryString="{0:'a[foo][x]'}"
+            noCacheHash="1"
+        />
+            – should remove a[foo] only: works as expected
+    </p>
+
+    <p>        
+        <f:uri.action
+            addQueryString="TRUE"
+            argumentsToBeExcludedFromQueryString="{0:'a[foo,bar][x]'}"
+            noCacheHash="1"
+        />
+            – should remove a[foo,bar][x] only: does not work as expected
+    </p>
+
+    <p>        
+        <f:uri.action
+            addQueryString="TRUE"
+            argumentsToBeExcludedFromQueryString="{0:'a[foo%2Cbar][x]'}"
+            noCacheHash="1"
+        />
+            – removes a[foo,bar][x] only
+    </p>
+
+</f:section>
