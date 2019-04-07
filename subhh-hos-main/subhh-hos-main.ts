@@ -24,6 +24,10 @@ plugin.tx_find {
         }
 
         queryFields {
+            0 {
+                autocomplete = 1
+            }
+
             10 {
                 id = title
                 type = Text
