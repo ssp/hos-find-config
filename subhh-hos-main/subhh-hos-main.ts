@@ -35,6 +35,11 @@ plugin.tx_find {
             }
         }
 
+        standardFields {
+            title = title
+            snippet = creatorName
+        }
+
         facets {
             10 {
                 id = collection
@@ -89,6 +94,18 @@ plugin.tx_find {
 
             100 {
                 id = language
+            }
+        }
+
+        highlight {
+            default {
+                fields {
+                    f1 = title
+                    f2 = creatorName
+                }
+                query = %s
+                useQueryTerms = 1
+                useFacetTerms = 1
             }
         }
 
